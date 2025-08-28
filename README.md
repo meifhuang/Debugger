@@ -1,5 +1,4 @@
 ![App Screenshot](./assets/chatgpt.png)
-# Debugging Co-Pilot
 
 ## Project Overview
 Debugging Co-Pilot is a prototype we are building to help data science students like us, fix coding bugs in Python and SQL faster without getting stuck. The idea is to give hints and explain things in simple language instead of just showing the answer, so students can actually learn while solving their errors. 
