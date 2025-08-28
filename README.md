@@ -1,3 +1,4 @@
+![App Screenshot](./assets/chatgpt.png)
 # Debugging Co-Pilot
 
 ## Project Overview
@@ -5,7 +6,7 @@ Debugging Co-Pilot is a prototype we are building to help data science students 
 
 ### Code and Resources Used
 Editor used: VS Code
-Python Version: 3.12.9
+Python Version: 3.12
 
 ### Python Packages Used
 General Purpose packages: os, load_env
@@ -45,19 +46,31 @@ cd debugapp
 ```
 
 ### 2. Activate a virtual environment
-
 Mac/Linux:
+
 ```
-conda create -n debugapp python=3.10 -y
-conda activate debugapp
+python3 -m venv .venv
+source .venv/bin/activate      
+```   
+
+Windows:
 ```
+python -m venv .venv
+.venv\Scripts\activate 
+```
+
 ### 3. Install dependencies
 ```
-pip install -r requirements.txt
+pip install streamlit==1.48.0 openai==1.99.9 langchain==0.3.27 langchain-core==0.3.74 langchain-community==0.3.27 langchain-openai==0.3.31 chromadb==1.0.20 python-dotenv
 ```
+
 ### 4. Run Streamlit App
 ```
-streamlit run tkhdebugger.py
+# Mac/Linux
+.venv/bin/python -m streamlit run tkhdebugger.py
+
+# Windows
+.venv\Scripts\python.exe -m streamlit run tkhdebugger.py
 ```
 
 ### 5. Open in browser
@@ -68,6 +81,9 @@ http://localhost:8501
 
 ### 7. Ask away! 
 ![Question](./assets/question.png)
+
+### 8. When done running, deactivate virtual environment 
+deactivate 
 
 ## Example
 ![App Screenshot](./assets/debuggerimg.png)
