@@ -41,6 +41,7 @@ In the future we’d like to add more data so our model can more easily find the
 
 ```
 # Open a directory where you want the project to be placed
+# Open your terminal in the directory 
 # Clone the repository
 git clone https://github.com/meifhuang/Debugger.git
 cd Debugger
@@ -83,7 +84,7 @@ http://localhost:8501
 ### 7. Ask away! 
 ![Question](./assets/question.png)
 
-### 8. When done running, deactivate virtual environment 
+### 8. When done running, deactivate virtual environment in the terminal by running:
 deactivate 
 
 ## Example
