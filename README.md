@@ -37,11 +37,13 @@ In the future we’d like to add more data so our model can more easily find the
 
 ## How to run Streamlit application locally
 
-### 1. Clone the repository
+### 1. Clone the repository to your machine
 
 ```
-git clone https://github.com/your-username/debugapp.git
-cd debugapp
+# Open a directory where you want the project to be placed
+# Clone the repository
+git clone https://github.com/meifhuang/Debugger.git
+cd Debugger
 ```
 
 ### 2. Activate a virtual environment
